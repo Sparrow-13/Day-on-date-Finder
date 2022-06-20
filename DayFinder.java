@@ -113,7 +113,7 @@ public class DayFinder {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.println("Format for date Ex : 12 12 2012 or 12 jan 2018");
-        System.out.println("Enter the date : ");
+        System.out.print("Enter the date : ");
         String date = sc.nextLine();
         DayFinder dayFinder = new DayFinder();
         String day = dayFinder.dayOnDate(date);
